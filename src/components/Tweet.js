@@ -5,16 +5,14 @@ function Tweet({tweet}) {
   console.log({tweet})
   return (
     <div className="tweet">
-      <ProfileImage image = {tweet.user.image}/> 
+      <ProfileImage image={tweet.user.image}/> 
 
       <div className="body">
         <div className="top">
-          <span className="user">
+            <span className="user">
             <span className="name">{tweet.user.name}</span>
             <span className="handle">{tweet.user.handle}</span>
           </span>
-         
-
           <span className="timestamp">{tweet.timestamp}</span>
         </div>
 
