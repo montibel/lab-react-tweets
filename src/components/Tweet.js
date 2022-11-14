@@ -17,7 +17,7 @@ function Tweet({tweet}) {
           </span>
          
 
-          <span className="timestamp">Nov 30, 2020</span>
+          <span className="timestamp">{tweet.timestamp}</span>
         </div>
 
         <p className="message">
