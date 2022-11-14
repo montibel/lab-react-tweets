@@ -1,6 +1,7 @@
 import React from "react";
 import ProfileImage from "./ProfileImage";
 import User from "./User";
+import Timestamp from "./Timestamp";
 
 function Tweet({tweet}) {
   console.log({tweet})
@@ -11,8 +12,7 @@ function Tweet({tweet}) {
       <div className="body">
         <div className="top">
          <User userData ={tweet.user} />
-          
-          <span className="timestamp">{tweet.timestamp}</span>
+         <Timestamp time={tweet.timestamp}/>
         </div>
 
         <p className="message">
