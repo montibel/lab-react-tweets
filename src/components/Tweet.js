@@ -13,7 +13,7 @@ function Tweet({tweet}) {
         <div className="top">
           <span className="user">
             <span className="name">{tweet.user.name}</span>
-            <span className="handle">{tweet.handle}</span>
+            <span className="handle">{tweet.user.handle}</span>
           </span>
          
 
